@@ -1,0 +1,38 @@
+.footer{
+    font-family: 'Mulish', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+    background: #F5F5F5;
+    flex-wrap: wrap;
+   
+   
+}
+.footer img{
+    width:72.09px;
+    height:40.35px;
+    align-self: center;
+}
+.dis{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.icon{
+    color: #ED165F;
+    margin-bottom: -5px;
+    margin-right: 5px;
+    width:15px;
+    height:15px;
+}
+
+
+.dis span{
+    
+    margin-bottom: 10px;
+}
+

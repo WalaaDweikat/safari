@@ -1,0 +1,81 @@
+.sign{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 70vw;
+    margin-top:130px;
+    margin-left:15vw;
+    padding-bottom: 150px;
+    font-family: 'Mulish', sans-serif;
+}
+
+ h1{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+
+.sign span{
+    font-size: 20px;
+    line-height: 18px;    
+    letter-spacing: 0.2px;
+    font-weight: normal;
+}
+.signInCreate{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.sc{
+    margin-top: 64px;
+    display: flex;
+    flex-direction: column;
+}
+.sc span{
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    margin-bottom: 10px;
+}
+
+.ms{
+    margin-left: 75px;
+}
+
+.divc{
+    margin-top: 20px;
+    display: flex;
+    margin-left: -10px;
+}
+
+.divc label{
+    width:270px;
+    padding-top: 10px;;
+
+}
+
+.la{
+    margin-top: 20px;
+    text-decoration: none;
+}
+.sc a{
+    text-decoration: none;
+    color: white;
+}
+
+
+@media only screen and (min-width: 1254px) {
+    .sign{
+        width:928px;
+    }
+  }
+
+  
+@media only screen and (max-width: 280px) {
+    .sign{
+        margin-left: 100px
+    }
+  }
