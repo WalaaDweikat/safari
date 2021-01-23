@@ -1,7 +1,7 @@
 .account{
     display: flex;
     margin-top: 150px;
-    margin-left: 64px;
+    align-self: center;
     margin-bottom: 150px;
     background: #FFFFFF;
     font-family: 'Mulish', sans-serif;

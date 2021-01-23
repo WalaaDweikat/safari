@@ -1,20 +1,23 @@
 .footer{
+
     font-family: 'Mulish', sans-serif;
     font-size: 14px;
     font-weight: 600;
     width:100%;
     display: flex;
-    justify-content: space-around;
+    justify-content:space-around;
     height: 200px;
     background: #F5F5F5;
     flex-wrap: wrap;
-   
+    z-index: 1;
+    align-self: center;
    
 }
 .footer img{
     width:72.09px;
     height:40.35px;
     align-self: center;
+    margin-top: 5px;
 }
 .dis{
     display: flex;
@@ -22,17 +25,47 @@
     justify-content: center;
 }
 
-.icon{
-    color: #ED165F;
-    margin-bottom: -5px;
-    margin-right: 5px;
-    width:15px;
-    height:15px;
-}
 
 
 .dis span{
     
-    margin-bottom: 10px;
+    margin-bottom: 7px;
 }
+
+.Subscribe{
+    display: block;
+    margin-top:15px;
+    
+}
+
+
+@media only screen and (max-width: 680px) {
+    .dis{
+        margin-left: 10px;
+       
+    }
+    .footer{
+        padding-top:30px;
+        height: fit-content;
+        flex-direction: column;
+        height: fit-content;
+        justify-content: space-around;
+    }
+  }
+
+  
+
+  @media only screen and (max-width: 350px) {
+    .footer{
+        width:350px;
+        flex-direction: column;
+        height: fit-content;
+        justify-content: space-around;
+        position: absolute;
+        left:0;
+        top:200%
+        
+
+    }
+  }
 

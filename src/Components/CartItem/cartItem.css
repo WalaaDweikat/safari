@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
+.cartitem{
+    width:1150px;
+    height:169px;
+    display:flex;
+    flex-wrap: wrap;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+    text-align: center;
+    
+}
+.pp{
+
+    
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px; 
+    letter-spacing: 0.2px;
+    font-family: "Mulish",sans-serif;
+    color: #686868;
+
+}
+
+.cartitem-1st{
+
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    width:599px;
+    border: 1.5px solid #d1cdcd;
+}
+
+.cartitem-2nd{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    width:149px;
+    border: 1.5px solid #d1cdcd;
+    height:169px;
+    
+}
+.cartitem-3rd span{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    display: block;
+    margin-top: 48px;
+}
+
+.cartitem-4th span{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    display: block;
+    margin-top: 48px;
+}
+.cartitem-3rd{
+    width:194px;
+    border: 1.5px solid #d1cdcd;
+    height:169px;
+}
+
+.cartitem-4th{
+    width:194px;
+    border: 1.5px solid #d1cdcd;
+    height:169px;
+}
+
+.asd{
+    display: flex;
+    flex-direction: column;
+    margin-top: -20px;
+    margin-left:30px ;
+}
+
+.asd img{
+    width:85px;
+    height:100px;
+    margin-right: 32px;
+}
+
+
+
+.asd-1st{
+    display: flex;
+    align-items: center;
+    font-family:"Mulish",sans-serif;
+    margin-left: -90px;
+
+    
+}
+.spans{
+    display: flex;
+    flex-direction: column;
+}
+
+.span1{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+
+}
+
+.span2{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    color: #686868;
+    margin-top: -15px;
+    margin-left: -15px;
+}
+
+.amg{
+    display: flex;
+    align-self: flex-end;
+    margin-left: 30px;
+}
+
+.amg span{
+    font-family:" Mulish",sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    color: #ED165F;
+}
+
+.move{
+    cursor: pointer;
+    margin-right: 60px;
+}
+
+.re{
+    cursor: pointer;
+    
+}

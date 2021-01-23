@@ -4,7 +4,7 @@
     justify-content: space-around;
     width: 70vw;
     margin-top:130px;
-    margin-left:15vw;
+    align-self: center;
     padding-bottom: 150px;
     font-family: 'Mulish', sans-serif;
 }
@@ -48,7 +48,9 @@
 .divc{
     margin-top: 20px;
     display: flex;
+   
     margin-left: -10px;
+    align-self: center;
 }
 
 .divc label{
@@ -76,6 +78,6 @@
   
 @media only screen and (max-width: 280px) {
     .sign{
-        margin-left: 100px
+        margin-left: 200px
     }
   }

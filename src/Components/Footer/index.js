@@ -23,6 +23,7 @@ const useStyles = makeStyles((theme) => ({
         borderColor: "black",
       },
     },
+    marginTop: "-10px",
   },
   input: {
     width: "30ch",
@@ -41,6 +42,14 @@ const useStyles = makeStyles((theme) => ({
     height: "5.3ch",
     borderTopLeftRadius: "0",
     borderBottomLeftRadius: "0",
+    marginTop: "-10px",
+  },
+  icon: {
+    color: "#ED165F",
+    marginBottom: "-5px",
+    marginRight: "5px",
+    width: "17px",
+    height: "17px",
   },
 }));
 export default function Footer() {
@@ -54,22 +63,22 @@ export default function Footer() {
         <span>Contact</span>
         <span>Terms {"&"} conditions </span>
       </div>
-      <div className="dis m">
+      <div className="dis">
         <span>
-          <Facebook className="icon" />
+          <Facebook className={classes.icon} />
           Facebook
         </span>
         <span>
-          <Twitter className="icon" />
+          <Twitter className={classes.icon} />
           Twitter
         </span>
         <span>
-          <Instagram className="icon" />
+          <Instagram className={classes.icon} />
           Instagram
         </span>
       </div>
       <div className="dis">
-        <span>Subscribe to our newsletter</span>
+        <span className="Subscribe">Subscribe to our newsletter</span>
         <pre>
           <TextField
             id="outlined-search"

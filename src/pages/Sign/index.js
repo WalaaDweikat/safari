@@ -4,9 +4,12 @@ import Button2 from "../../Components/Button2/index.js";
 import { withStyles } from "@material-ui/core/styles";
 import Checkbox from "@material-ui/core/Checkbox";
 import { Link } from "react-router-dom";
+import v from "../../images/gustavo-spindula-l7wrlsKDmCE-unsplash.png";
+import CartItem from "../../Components/CartItem/index.js";
 const Check = withStyles({
   root: {
     color: "#ED165F",
+
     "&$checked": {
       color: "#ED165F",
     },
@@ -65,6 +68,7 @@ export default function Sign() {
           </Link>
         </div>
       </div>
+      <CartItem src={v} />
     </div>
   );
 }

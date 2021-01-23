@@ -35,16 +35,13 @@
     text-decoration: none;
 }
 
-.select{
-    margin-top: 20px;
-    width: 350px;
-    height: 35px;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 60px;
-}
 
-.select label{
+.select{
+    display:flex;
+    flex-direction: column;
+}
+.selectLabel{
+    margin-top:20px;
     margin-bottom: 16px;
     font-weight: 300;
 }

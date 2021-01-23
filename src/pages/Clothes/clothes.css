@@ -1,0 +1,22 @@
+.cl{
+    display: flex;
+    justify-content: space-evenly;
+    align-self: center;
+   
+}
+.clothes{
+    display: flex;
+    flex-direction: column;
+    margin-top:130px;
+}
+.clothes h1{
+    margin-left: 20px;
+    margin-bottom: 64px;
+}
+.clothes-1{
+    margin-left: 20px;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

@@ -13,16 +13,12 @@ const Check = withStyles({
   },
   checked: {},
 })((props) => <Checkbox color="default" {...props} />);
+
 const useStyles = makeStyles((theme) => ({
-  select: {
-    "&:before": {
+  root: {
+    "& .MuiSelect-root": {
       borderColor: "black",
     },
-    "&:after": {
-      borderColor: "red",
-    },
-  },
-  input: {
     width: "350px",
     height: "55px",
     fontSize: "14px",
@@ -44,20 +40,18 @@ export default function UserInformation() {
         <Input idd="lastName" name="Last name" label="" type="text" />
         <Input idd="email" name="Email" label="" type="email" />
         <div className="select">
-          <label>Gender</label>
+          <label className="selectLabel">Gender</label>
           <Select
-            value={gender}
-            variant="outlined"
-            onChange={updateSelectValue}
+            labelId="demo-simple-select-outlined-label"
             id="demo-simple-select-outlined"
-            inputProps={{
-              fontSize: "14px",
-              color: "red",
-            }}
-            className={classes.select}
+            value={gender}
+            onChange={updateSelectValue}
+            variant="outlined"
+            className={classes.root}
           >
-            <MenuItem value="female">Female</MenuItem>
-            <MenuItem value="male">Male</MenuItem>
+            <MenuItem value={0} disabled></MenuItem>
+            <MenuItem value={1}>Female</MenuItem>
+            <MenuItem value={2}>Male</MenuItem>
           </Select>
         </div>
 

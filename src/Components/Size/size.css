@@ -1,0 +1,69 @@
+.size{
+    display: flex;
+    flex-direction: column;
+    width:301px;
+}
+
+.size-1{
+    display: flex;
+    flex-direction: column;
+    width:301px;
+    height:34px;
+    
+}
+
+.size-2{
+    margin-top: 50px;
+    width:280px;
+    height:176px;
+    display: flex;
+    flex-wrap: wrap;
+  
+}
+
+
+
+.size button{
+    width:54px;
+    margin-left: 16px;
+    height:30px;
+    border: 2px solid black;
+    background-color: white;
+    font-family: "Mulish",sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+    border-radius: 3px;
+
+
+}
+
+.size-1 p{
+    display: flex;
+    font-family: "Mulish",sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 18px;
+    color: black;
+    
+
+}
+
+.size-1 span{
+    display: block;
+    margin-left: 174px;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: #C4C4C4;
+}
+
+
+
+
+
+

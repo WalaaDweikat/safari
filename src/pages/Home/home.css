@@ -1,62 +1,183 @@
 
-
 .home{
     display: flex;
     flex-direction: column;
     font-family: 'Mulish', sans-serif;
+    width:100%;
 }
 
 .homeFirstPart{
     background-color: #ED165F ;
-    height:100vh;
-    width:100vw;
+    height:840px;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .LB{
+    
     position: absolute;
-    height: 90vh;
-    width:65vw;
-    position: absolute;
-    top:19vh;
-    left:13vw;
+    height:500px;;
+    width:75.9vw;
+    margin-top: 0 auto;
+    align-self: center;
+    
+    
 }
 
 .pic1{
-    width:40vw;
-    position: relative;
-    left:22%;
-}
-.homeSecondPart{
-    display: flex;
-    flex-direction: column;
-}
-.shop{
-    margin-top: 50px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.shop div{
-    
-
-    margin-top: 30px;
-}
-
-.shop h1{
-    
-    font-size: 35px;
-    font-weight: bold;
+    width:530px;
+    height:670px;
+    position: absolute;
+    top:54px;
+    align-self: center;
 }
 
 .des{
     font-size: 17px;
+    width:70vw;
+    align-self: center;
 }
 
 
 
-.homeSecondPart p{
-    width:60vw;
+.Explore{
+    font-family: 'Mulish', sans-serif;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top:750px;
+    align-items: center;
+    align-content: center;
+    font-weight: 400;
+    font-size: 30px;
+    
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.arrow{
+    margin-top: 20px;
+    width: 23px;
+    height:26px;
+
+}
+
+
+.homeSecondPart {
+    display: flex;
+    flex-direction: column;
+    margin-top: 64px;
+    width:100%;
     text-align: center;
     align-self: center;
     line-height: 25px;
 }
+
+.shop{
+    display: flex;
+    width:100%;
+}
+
+.shop span{
+    display: block;
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 50px; 
+    text-align: center;
+    width:700px;
+}
+
+.Line{
+    align-self: center;
+    height:1px;
+    width:30%
+}
+
+
+@media only screen and (max-width: 349px) {
+   .homeFirstPart{
+    width: 349px;
+   }
+
+   .shop{
+       width:349px;
+   }
+   .Explore{
+       width:296px
+   }
+
+   .des{
+       width:314px;
+       margin-left: 100px;
+   }
+  }
+
+
+  @media only screen and (max-width: 770px) {
+    .pic1{
+       width: 500px;
+       height:300x;
+       padding-top: 20vh;
+       margin-top: -130px;
+    }
+   
+    .LB{
+        width: 600px;
+        height:500px;
+       
+     }
+   }
+
+
+
+  @media only screen and (max-width:632px) {
+    .pic1{
+       width: 350px;
+       height:500px;
+       margin-top: -70px;
+    }
+
+    .LB{
+
+        width: 500px;
+        height:300px;
+       
+     }
+   
+   }
+
+  
+  
+   @media only screen and (max-width:499px) {
+   
+
+    .LB{
+
+        width: 350px;
+        height:300px;
+       
+     }
+   
+   }
+
+  
+   @media only screen and (min-width: 1326px) {
+    .LB{
+    
+        position: absolute;
+        height:500px;;
+        width:1007px;
+        margin-top: 0 auto;
+        align-self: center;
+        
+        
+    }
+   
+  
+   }
+   
