@@ -2,10 +2,10 @@ import "./favorites.css";
 import FavoriteItem from "../../Components/FavoriteItem/index.js";
 import a from "../../images/gustavo-spindula-l7wrlsKDmCE-unsplash.png";
 import DashBoard from "../../Components/DashBoard";
-export default function AccountInfomation() {
+export default function AccountInfomation(props) {
   return (
     <div className="account">
-      <DashBoard />
+      <DashBoard onClick={props.onClick} />
       <className className="fa">
         <span className="userInfo faspan">My favorites</span>
         <div className="ff">

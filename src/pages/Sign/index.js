@@ -46,7 +46,7 @@ const Check = withStyles({
   checked: {},
 })((props) => <Checkbox color="default" {...props} />);
 
-export default function Sign() {
+export default function Sign(props) {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState(initErrors);
@@ -152,9 +152,9 @@ export default function Sign() {
             <Check />
             <label>Remember my details</label>
           </div>
-          <Link to="/AccountInformation">
+          <a href="/AccountInformation" onClick={props.onClick}>
             <Button2 name="SIGN IN" onClick={handleRegister} />
-          </Link>
+          </a>
           <a href="#" className="la">
             Forget Password?
           </a>

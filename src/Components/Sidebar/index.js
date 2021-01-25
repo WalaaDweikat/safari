@@ -2,7 +2,7 @@ import "./sidebar.css";
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { useState, useEffect } from "react";
-
+import firebase from "firebase";
 export default function Sidebar() {
   const [w, setW] = useState(window.innerWidth);
   const [e, setE] = useState("");
@@ -60,7 +60,7 @@ export default function Sidebar() {
           <NavLink exact to="/Accessories" activeClassName="activeSide">
             Accessories
           </NavLink>
-          <NavLink exact to="/AcountInformation" activeClassName="activeSide">
+          <NavLink exact to="/AccountInformation" activeClassName="activeSide">
             Profile
           </NavLink>
           <NavLink exact to="/ShoppingCart" activeClassName="activeSide">

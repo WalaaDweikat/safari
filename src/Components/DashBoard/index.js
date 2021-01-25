@@ -7,7 +7,7 @@ import Favorite from "@material-ui/icons/Favorite";
 import firebase from "firebase";
 import "firebase/auth";
 import { NavLink, Link } from "react-router-dom";
-export default function DashBoard() {
+export default function DashBoard(props) {
   return (
     <div className="dashboard">
       <div className="list">
@@ -41,7 +41,7 @@ export default function DashBoard() {
           </pre>
         </NavLink>
       </div>
-      <Link to="/signIn-CreateAccount">
+      <Link to="/signIn-CreateAccount" onClick={props.onClick}>
         <pre
           className="signOut"
           onClick={async () => {
