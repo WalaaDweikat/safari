@@ -18,7 +18,11 @@ const useStyles = makeStyles((theme) => ({
 export default function Button2(props) {
   const classes = useStyles();
   return (
-    <Button variant="contained" className={classes.Button}>
+    <Button
+      variant="contained"
+      className={classes.Button}
+      onClick={props.onClick}
+    >
       {props.name}
     </Button>
   );

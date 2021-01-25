@@ -41,6 +41,7 @@ export default function Input(props) {
         InputProps={{
           className: classes.input,
         }}
+        onChange={props.onChange}
       />
     </div>
   );

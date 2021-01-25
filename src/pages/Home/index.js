@@ -4,7 +4,21 @@ import pic from "../../images/pic.png";
 import Line from "../../images/Line.png";
 import arrow from "../../images/arrow.png";
 import Buy from "../../Components/Buy";
+import "firebase/firestore";
+import firebase from "../../firebase.Config.js";
+const db = firebase.firestore();
 export default function Home() {
+  let data = [];
+  const da = db
+    .collection("clothes")
+    .get()
+    .then(function (querySnapshot) {
+      querySnapshot.forEach(function (doc) {
+        data.push(doc.data());
+      });
+      console.log(data);
+    });
+
   return (
     <div className="home">
       <div className="homeFirstPart">

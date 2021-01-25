@@ -135,7 +135,7 @@ export default function Header(props) {
           <li>
             <NavLink
               exact
-              to="/signIn-CreateAccount"
+              to="/AccountInformation"
               className="main-nav"
               activeClassName="active2"
             >

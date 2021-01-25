@@ -3,7 +3,7 @@ import CancelIcon from "@material-ui/icons/Cancel";
 import FavoriteBorderIcon from "@material-ui/icons/FavoriteBorder";
 import TextField from "@material-ui/core/TextField";
 import { makeStyles } from "@material-ui/core/styles";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const useStyles = makeStyles((theme) => ({
   input: {
@@ -26,6 +26,7 @@ const useStyles = makeStyles((theme) => ({
 export default function CartItem(props) {
   const classes = useStyles();
   const [value, setValue] = useState(1);
+
   return (
     <div className="cartitem">
       <div className="cartitem-1st">

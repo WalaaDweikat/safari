@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
 
 .cartitem{
-    width:1150px;
     height:169px;
     display:flex;
     flex-wrap: wrap;
@@ -10,11 +9,11 @@
     line-height: 23px;
     color: #000000;
     text-align: center;
-    
+    margin-bottom: 50px;;
 }
-.pp{
 
-    
+
+.pp{
     font-weight: 600;
     font-size: 16px;
     line-height: 18px; 
@@ -144,3 +143,67 @@
     cursor: pointer;
     
 }
+@media only screen and (max-width: 1156px) {
+    .cartitem-2nd{
+       display: none;
+    }
+
+    .cartitem-3rd{
+        display: none;
+     }
+
+     .cartitem-4th{
+        display: none;
+     }
+
+     
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    .cartitem-1st{
+        width:max-content;
+        flex-direction: column;
+        height: fit-content;
+     }
+
+     .cartitem{
+        height:fit-content;
+        flex-direction: column;
+        
+    }
+    .asd-1st{
+        margin-top: 20px;
+        flex-direction: column;
+        margin-left: 3px;;
+    }
+    .amg{
+        display: block;
+        margin-left: -25px;
+        margin-bottom: 10px;
+    }
+  }
+
+  @media only screen and (max-width: 350px) {
+    .cartitem-1st{
+        width:350px;
+     }
+
+     .cartitem{
+        margin-left: 20px;;
+        
+    }
+
+    .move{
+        display: none;
+    }
+
+    .re{
+        display: none;
+    }
+
+    .amg{
+        margin-left: -20px;
+    }
+    
+  }

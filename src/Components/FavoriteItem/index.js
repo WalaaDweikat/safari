@@ -1,6 +1,5 @@
 import "./favorites.css";
 import CancelIcon from "@material-ui/icons/Cancel";
-import Button2 from "../Button2/index.js";
 import { Button } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 const useStyles = makeStyles((theme) => ({
